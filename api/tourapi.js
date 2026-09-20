@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     ...params
   });
 
-  const url = `https://apis.data.go.kr/B551011/KorService1/${endpoint}?${qs}`;
+  const url = `https://apis.data.go.kr/B551011/KorService2/${endpoint}?${qs}`;
 
   try {
     const response = await fetch(url);
